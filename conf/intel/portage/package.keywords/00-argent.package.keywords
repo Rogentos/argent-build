@@ -125,3 +125,6 @@ dev-qt/qt3support ~amd64 ~x86
 
 # texinfo 5.2
 =sys-apps/texinfo-5.2 ~amd64 ~x86
+
+# lightdm useful stuff
+=app-eselect/eselect-lightdm-0.2 ~amd64 ~x86
