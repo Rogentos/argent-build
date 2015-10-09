@@ -474,17 +474,12 @@ media-plugins/vdr-weatherng dxr3
 media-radio/tucnak2 fftw
 
 media-sound/alsa-tools -gtk
-media-sound/amarok lastfm cdaudio ifp njb mtp musicbrainz -xmms mp4 embedded
 media-sound/ardour freesound
 media-sound/asunder wavpack
-media-sound/audacity ladspa vamp soundtouch id3tag midi -ffmpeg
-media-sound/audacious -gtk gtk3 wma timidity lirc dbus chardet
-media-sound/banshee podcast -ipod -zeroconf mtp njb
+media-sound/audacious gtk gtk3 wma timidity lirc dbus chardet
 media-sound/cantata replaygain taglib cdparanoia devices
-media-sound/clementine lastfm ios moodbar mtp
 media-sound/cmus mikmod
 media-sound/deadbeef alac ape cover curl lastfm m3u hotkeys sndfile supereq wavpack
-media-sound/gmusicbrowser gstreamer
 media-sound/gpodder gstreamer
 media-sound/jack-audio-connection-kit -mmx -cpudetection -ffado
 media-sound/lmms fftw fluidsynth 
@@ -499,7 +494,6 @@ media-sound/qtractor sse
 media-sound/pulseaudio system-wide -qt4 -gtk
 # 2.92 with USE=cdr requires =app-cdr/brasero-3.4* but
 # gnome-base/gnome-core-apps[cdr] depends on >=app-cdr/brasero-3.6.1
-media-sound/rhythmbox -cdr
 media-sound/snd fftw
 media-sound/sonic-visualiser fftw
 >=media-sound/soundkonverter-0.2.90-r1 lame
@@ -509,7 +503,6 @@ media-sound/kid3 -mp4
 
 media-tv/freevo lirc matrox
 media-tv/xawtv aalib
-media-tv/xbmc airplay bluray css goom mysql pvr rtmp upnp webserver xrandr sftp nfs
 
 # Disable MMX due to compile failures
 media-tv/mythtv fftw
@@ -530,9 +523,7 @@ media-video/mplayer2 -xvmc
 # we have media-video/mkvtoolnix-gui
 media-video/mkvtoolnix -qt4 -wxwidgets
 media-video/ogmrip ogm mp4 srt
-media-video/totem xulrunner iplayer galago
 media-video/vdr SetGroupSep-Patch atsc cmdsubmenu dvbsetup dxr3 graphtft iptv menuorg pinplugin rotor submenu subtitles ttxtsubs ttxtsubs yaepg
-media-video/vlc aalib egl fontconfig httpd libass live lua rtsp samba skins taglib upnp vlm
 media-video/xine-ui aalib
 
 # Drop xine-ui from dvdrip, since
@@ -634,7 +625,7 @@ net-misc/minidlna netgear readynas
 net-misc/mosh ufw
 # bluetooth use flag is useless
 # wext due to bug 3283
-net-misc/networkmanager -bluetooth connection-sharing -dhclient dhcpcd -gnutls introspection modemmanager nss wext wimax
+net-misc/networkmanager -bluetooth connection-sharing dhclient dhcpcd gnutls introspection modemmanager nss wext wimax
 # OLD: to make VPN working with networkmanager (nm-applet)
 # NEW: USE=gtk makes these plugins work properly with
 # newer nm-applet. Please, don't remove it and see

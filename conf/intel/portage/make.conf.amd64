@@ -66,7 +66,7 @@ RUBY_TARGETS="ruby19 ruby20"
 # Apache suEXEC default UMASK
 # See bug 3544
 SUEXEC_UMASK=022
-PKGDIR="/home/work/packages"
+PKGDIR="/usr/portage/packages"
 
 # Setup GRUB platforms
 GRUB_PLATFORMS="efi-32 efi-64 pc coreboot"
