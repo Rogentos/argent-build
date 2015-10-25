@@ -59,7 +59,7 @@ app-editors/emacs xft
 app-editors/gedit-plugins terminal
 # USE=spell wants Python 3.2, doesn't allow 3.3
 app-editors/retext -spell
-app-editors/vim cscope ruby vim-pager
+app-editors/vim cscope -ruby vim-pager -X
 app-editors/xemacs xft
 
 app-emacs/auctex preview-latex
@@ -551,7 +551,7 @@ net-dialup/ppp atm dhcp radius -gtk
 net-dialup/freeradius threads
 net-dialup/slmodem usb
 
-net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm -gtk python autoipd -qt4 introspection
+net-dns/avahi howl-compat mdnsresponder-compat dbus gdbm -gtk -gtk3 python autoipd -qt4 introspection
 net-dns/avahi-base introspection howl-compat autoipd mdnsresponder-compat
 net-dns/avahi-gtk introspection
 net-dns/avahi-gtk3 introspection
@@ -727,7 +727,7 @@ sys-apps/man-db -berkdb
 sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -linguas_nl -linguas_pl -linguas_ro -linguas_ru -linguas_zh_CN
 sys-apps/pciutils -zlib
 # systemd support
-sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap
+sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap introspection gudev
 # Install tty helpers (like wall)
 sys-apps/util-linux tty-helpers
 
@@ -770,6 +770,10 @@ sys-fs/reiser4progs static static-libs
 sys-fs/udev extras
 # udisks, we want cryptsetup support
 sys-fs/udisks cryptsetup crypt
+
+# yes, we want urandom in cryptsetup
+sys-fs/cryptsetup urandom
+
 # We use a builtin kernel module
 sys-fs/zfs kernel-builtin
 
@@ -988,7 +992,6 @@ gnome-base/gnome-panel introspection bonobo
 net-libs/gtk-vnc gtk3
 app-misc/tomboy -applet
 # our is a split package, who cares
-net-dns/avahi dbus gtk3
 # Do not pull in gnome-extra-apps meta package
 # Disable accessibility, since it's just a virtual dependency
 gnome-base/gnome -extras -accessibility
