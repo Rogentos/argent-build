@@ -1,2 +1,2 @@
-sys-apps/openrc
-sys-apps/sysvinit
+>=sys-apps/openrc-0.1
+>=sys-apps/sysvinit-1
