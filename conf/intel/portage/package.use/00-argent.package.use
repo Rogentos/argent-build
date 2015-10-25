@@ -189,7 +189,7 @@ dev-lang/fpc source ide
 # icc doesn't like LINGUAS=ja on ifc
 dev-lang/ifc idb -linguas_ja
 dev-lang/lua deprecated
-dev-lang/mono moonlight
+dev-lang/mono moonlight pax-kernel
 dev-lang/ocaml tk
 dev-lang/parrot pcre
 dev-lang/php -threads apache2 bcmath calendar cgi ctype curl filter fpm ftp gd hash imap intl json mhash mysql mysqli mysqlnd odbc pcntl pcre pdo posix postgres reflection simplexml snmp soap sockets spl sqlite sqlite3 tidy tokenizer wddx xml xmlreader xmlwriter xsl zip sysvipc xslt
@@ -791,7 +791,7 @@ sys-libs/gpm static-libs
 
 sys-kernel/dracut device-mapper dracut_modules_biosdevname dracut_modules_btrfs dracut_modules_dmraid dracut_modules_dmsquash-live dracut_modules_gensplash dracut_modules_lvm dracut_modules_mdraid dracut_modules_multipath dracut_modules_nbd dracut_modules_nfs dracut_modules_plymouth dracut_modules_syslog dracut_modules_crypt dracut_modules_crypt-gpg dracut_modules_crypt-loop dracut_modules_iscsi dracut_modules_systemd net
 sys-kernel/genkernel cryptsetup crypt
-sys-kernel/genkernel-next cryptsetup crypt
+sys-kernel/genkernel-next cryptsetup crypt dmraid -gpg iscsi mdadm plymouth
 sys-kernel/linux-argent dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
 <sys-kernel/linux-argent-3.13 splash
 sys-kernel/argent-sources symlink
@@ -1184,7 +1184,10 @@ dev-libs/libffi pax-kernel
 x11-libs/libxcb xkb
 
 # systemd with gudev and without ssl
-sys-apps/systemd gudev -ssl
+sys-apps/systemd gudev -ssl introspection
 
 # openssl additional flags
 dev-libs/openssl sctp
+
+# doxygen USE flags
+app-doc/doxygen clang doxysearch
