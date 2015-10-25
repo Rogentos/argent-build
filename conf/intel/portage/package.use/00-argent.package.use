@@ -729,7 +729,7 @@ sys-apps/man-db -berkdb
 sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -linguas_nl -linguas_pl -linguas_ro -linguas_ru -linguas_zh_CN
 sys-apps/pciutils -zlib
 # systemd support
-sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap introspection gudev
+sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap introspection gudev xkb
 # Install tty helpers (like wall)
 sys-apps/util-linux tty-helpers
 
