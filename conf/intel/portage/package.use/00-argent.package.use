@@ -282,7 +282,7 @@ dev-util/kdevplatform git subversion
 dev-util/nvidia-cuda-sdk opencl
 
 dev-vcs/bzr bash-completion curl sftp
-dev-vcs/git curl webdav -subversion -gtk
+dev-vcs/git curl webdav -subversion -gtk -gpg
 dev-vcs/qct mercurial subversion
 dev-vcs/subversion -java -apache2 -dso -kde
 
@@ -638,8 +638,7 @@ net-misc/networkmanager-vpnc gnome
 net-misc/ntp -zeroconf
 net-misc/nxclient prebuilt
 net-misc/nxnode prebuilt vnc
-net-misc/openssh -X
-net-misc/openssh -ldap
+net-misc/openssh -ldap -X ssh1
 # No more spidermonkey
 net-misc/plowshare -javascript
 net-misc/ps3mediaserver multiuser tsmuxer
@@ -753,7 +752,7 @@ sys-cluster/vzctl vanilla-kernel vz-kernel ploop
 # and it's better to not ship with gtk
 sys-devel/distcc -avahi -gtk
 sys-devel/gcc objc objc++ objc-gc graphite go -gtk
-sys-devel/base-gcc objc objc++ objc-gc graphite -gtk
+sys-devel/base-gcc objc objc++ objc-gc graphite go -gtk
 
 # No fuck git by default!
 sys-devel/gettext -git
@@ -1172,3 +1171,12 @@ x11-apps/intel-gpu-tools python_single_target_python3_3
 
 # php with fpm and apache2 support
 app-eselect/eselect-php fpm apache2
+
+# dev-libs/libffi with pax-kernel
+dev-libs/libffi pax-kernel
+
+# libxck with xkb
+x11-libs/libxcb xkb
+
+# systemd with gudev and without ssl
+sys-apps/systemd gudev -ssl
