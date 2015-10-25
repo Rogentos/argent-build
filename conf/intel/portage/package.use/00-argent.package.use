@@ -732,6 +732,9 @@ sys-apps/pciutils -zlib dns
 # systemd support
 sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap introspection gudev xkb
 
+# libgudev with introspection
+virtual/libgudev introspection
+
 # Install tty helpers (like wall)
 sys-apps/util-linux tty-helpers
 
