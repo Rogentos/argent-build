@@ -189,7 +189,7 @@ dev-lang/fpc source ide
 # icc doesn't like LINGUAS=ja on ifc
 dev-lang/ifc idb -linguas_ja
 dev-lang/lua deprecated
-dev-lang/mono moonlight pax-kernel
+dev-lang/mono moonlight pax_kernel
 dev-lang/ocaml tk
 dev-lang/parrot pcre
 dev-lang/php -threads apache2 bcmath calendar cgi ctype curl filter fpm ftp gd hash imap intl json mhash mysql mysqli mysqlnd odbc pcntl pcre pdo posix postgres reflection simplexml snmp soap sockets spl sqlite sqlite3 tidy tokenizer wddx xml xmlreader xmlwriter xsl zip sysvipc xslt
