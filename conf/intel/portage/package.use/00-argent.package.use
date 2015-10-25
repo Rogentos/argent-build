@@ -61,6 +61,7 @@ app-editors/gedit-plugins terminal
 app-editors/retext -spell
 app-editors/vim cscope -ruby vim-pager -X
 app-editors/xemacs xft
+app-editors/nano justify
 
 app-emacs/auctex preview-latex
 
@@ -230,6 +231,8 @@ dev-libs/tntnet sdk
 dev-libs/xerces-c xqilla icu
 dev-libs/xmlrpc-c curl
 dev-libs/xmlsec gcrypt
+dev-libs/libpcre pcre16
+
 
 # See Sabayon bug #1020
 dev-libs/openct pcsc-lite
@@ -1180,3 +1183,6 @@ x11-libs/libxcb xkb
 
 # systemd with gudev and without ssl
 sys-apps/systemd gudev -ssl
+
+# openssl additional flags
+dev-libs/openssl sctp
