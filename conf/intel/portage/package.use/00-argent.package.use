@@ -759,8 +759,8 @@ sys-cluster/vzctl vanilla-kernel vz-kernel ploop
 # Disable GTK for distcc, this is a server-side app
 # and it's better to not ship with gtk
 sys-devel/distcc -avahi -gtk
-sys-devel/gcc objc objc++ objc-gc graphite go -gtk -sanitize
-sys-devel/base-gcc objc objc++ objc-gc graphite go -gtk
+sys-devel/gcc objc objc++ objc-gc graphite go -gtk -sanitize fortran
+sys-devel/base-gcc objc objc++ objc-gc graphite go -gtk fortran
 
 # No fuck git by default!
 sys-devel/gettext -git
