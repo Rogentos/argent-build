@@ -39,3 +39,6 @@ dev-qt/qt3support ~amd64 ~x86
 =app-crypt/shim-signed-0.2 ~amd64 ~x86
 =media-libs/giflib-4.2.3-r1 ~amd64 ~x86
 =sys-kernel/linux-firmware-20150320 ~amd64 ~x86
+
+# vmware tools keyworded
+=app-emulation/vmware-tools-9.6.2.1744117 ~amd64 ~x86
