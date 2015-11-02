@@ -313,6 +313,7 @@ games-strategy/warzone2100 videos
 
 games-util/springlobby bittorrent
 
+gnome-base/dconf -X
 gnome-base/gconf policykit
 gnome-base/gnome-applets gnome networkmanager gstreamer
 gnome-base/gvfs ios samba gnome gdu fuse archive gnome-keyring udisks
