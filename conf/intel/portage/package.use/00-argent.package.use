@@ -979,6 +979,9 @@ sys-libs/zlib static-libs
 # We want packages with static-libs (add here)
 dev-libs/expat static-libs
 
+# eliminate cairo from gobject-introspection
+dev-libs/gobject-introspection -cairo
+
 # Prepare for GNOME 3
 # cairo pulls in mesa in the end, which is bad for spinbase
 # however, we have split ebuilds now, so enable cairo
