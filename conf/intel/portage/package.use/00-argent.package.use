@@ -1199,3 +1199,6 @@ dev-libs/openssl sctp
 
 # doxygen USE flags
 app-doc/doxygen clang doxysearch
+
+# open-vm-tools without X vgauth
+app-emulation/open-vm-tools -X vgauth
