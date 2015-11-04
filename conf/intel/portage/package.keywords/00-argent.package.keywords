@@ -42,3 +42,8 @@ dev-qt/qt3support ~amd64 ~x86
 
 # vmware tools keyworded
 =app-emulation/vmware-tools-9.6.2.1744117 ~amd64 ~x86
+
+# open-vm-tools keyworded
+=app-emulation/open-vm-tools-9.10.0_p2476743 ~amd64 ~x86
+=app-emulation/open-vm-tools-kmod-9.10.0_p2476743 ~amd64 ~x86
+=dev-libs/xml-security-c-1.7.3 ~amd64 ~x86
