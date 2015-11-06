@@ -1202,3 +1202,6 @@ app-doc/doxygen clang doxysearch
 
 # open-vm-tools without X vgauth
 app-emulation/open-vm-tools -X vgauth
+
+# qtgui without gtkstyle
+>=dev-qt/qtgui-5.4.1-r2 -gtkstyle
