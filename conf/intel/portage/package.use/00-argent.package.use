@@ -1188,6 +1188,9 @@ app-eselect/eselect-php fpm apache2
 # dev-libs/libffi with pax-kernel
 dev-libs/libffi pax_kernel
 
+# oracle java with pax_kernel
+dev-java/oracle-jdk-bin pax_kernel
+
 # libxck with xkb
 x11-libs/libxcb xkb
 
