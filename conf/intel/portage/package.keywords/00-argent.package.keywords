@@ -56,3 +56,6 @@ dev-qt/qt3support ~amd64 ~x86
 
 # enable nodejs
 =dev-libs/libuv-1.6.1 ~amd64 ~x86
+
+# kvm-kmod keyworded
+=app-emulation/kvm-kmod-3.10.1 ~amd64 ~x86
