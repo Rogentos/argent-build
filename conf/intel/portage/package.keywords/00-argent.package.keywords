@@ -53,3 +53,6 @@ dev-qt/qt3support ~amd64 ~x86
 =dev-qt/qtnetwork-5.4.1 ~amd64 ~x86
 =dev-qt/qtwidgets-5.4.1 ~amd64 ~x86
 =dev-qt/qtdeclarative-5.4.1 ~amd64 ~x86
+
+# enable nodejs
+=dev-libs/libuv-1.6.1 ~amd64 ~x86
