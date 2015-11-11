@@ -1208,3 +1208,6 @@ app-emulation/open-vm-tools -X vgauth
 
 # qtgui without gtkstyle
 >=dev-qt/qtgui-5.4.1-r2 -gtkstyle
+
+# icedtea-web with javascript USE flag
+dev-java/icedtea-web javascript
