@@ -1211,3 +1211,7 @@ app-emulation/open-vm-tools -X vgauth
 
 # icedtea-web with javascript USE flag
 dev-java/icedtea-web javascript
+
+# clustering support with heartbeat, pacemaker
+sys-cluster/drbd heartbeat pacemaker
+sys-cluster/pacemaker heartbeat
