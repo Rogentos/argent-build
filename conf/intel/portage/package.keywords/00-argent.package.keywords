@@ -59,3 +59,6 @@ dev-qt/qt3support ~amd64 ~x86
 
 # kvm-kmod keyworded
 =app-emulation/kvm-kmod-3.10.1 ~amd64 ~x86
+
+# sys-cluster/crmsh keyworded
+=sys-cluster/crmsh-2.1.1 ~amd64 ~x86
