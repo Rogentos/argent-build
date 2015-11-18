@@ -65,3 +65,6 @@ dev-qt/qt3support ~amd64 ~x86
 
 # sys-cluster/drbdlinks keyworded
 =sys-cluster/drbdlinks-1.27-r1 ~amd64 ~x86
+
+# makebootfat keyworded
+=sys-boot/makebootfat-1.4 ~amd64 ~x86
