@@ -1218,5 +1218,5 @@ sys-cluster/pacemaker heartbeat
 sys-cluster/drbdlinks heartbeat
 sys-cluster/drbd-utils heartbeat pacemaker
 
-# bind with mysql and no threads support
-net-dns/bind mysql -threads
+# bind with mysql, xml and urandom and no threads support
+net-dns/bind urandom xml mysql -threads
