@@ -750,7 +750,7 @@ sys-block/open-iscsi -modules
 
 # grub2 must be slotted for a while
 >sys-boot/grub-1 multislot
-sys-boot/grub device-mapper libzfs mount truetype
+sys-boot/grub device-mapper libzfs mount multislot nls sdl truetype
 
 sys-cluster/openmpi romio
 sys-cluster/torque server
