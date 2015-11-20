@@ -103,3 +103,6 @@ dev-qt/qt3support ~amd64 ~x86
 =dev-qt/qtnetwork-5.4.1 ~amd64 ~x86
 # required by sys-boot/makebootfat (argument)
 =sys-boot/makebootfat-1.4 ~amd64 ~x86
+
+# gnu-efi keyworded
+=sys-boot/gnu-efi-3.0.2 ~amd64 ~x86
