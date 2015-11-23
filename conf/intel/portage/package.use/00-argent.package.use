@@ -1220,3 +1220,6 @@ sys-cluster/drbd-utils heartbeat pacemaker
 
 # bind with mysql, xml and urandom and no threads support
 net-dns/bind urandom xml mysql -threads
+
+# sys-firmware/ipxe support for vmware
+sys-firmware/ipxe vmware
