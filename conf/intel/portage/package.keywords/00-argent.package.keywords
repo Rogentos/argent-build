@@ -106,3 +106,6 @@ dev-qt/qt3support ~amd64 ~x86
 
 # gnu-efi keyworded
 =sys-boot/gnu-efi-3.0.2 ~amd64 ~x86
+
+# grub keyworded just in case
+=sys-boot/grub-2.00-r7 ~amd64 ~x86
