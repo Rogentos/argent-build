@@ -109,3 +109,6 @@ dev-qt/qt3support ~amd64 ~x86
 
 # grub keyworded just in case
 =sys-boot/grub-2.00-r7 ~amd64 ~x86
+
+# spl keyworded
+=sys-kernel/spl-0.6.4 ~amd64 ~x86
