@@ -1,4 +1,3 @@
-sys-boot/grub::gentoo
 sys-devel/gcc::gentoo
 sys-devel/base-gcc::gentoo
 sys-kernel/linux-headers::gentoo
