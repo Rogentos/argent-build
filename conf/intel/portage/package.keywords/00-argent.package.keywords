@@ -122,3 +122,6 @@ dev-qt/qt3support ~amd64 ~x86
 
 # spl keyworded
 =sys-kernel/spl-0.6.4 ~amd64 ~x86
+
+# texinfo 5.2
+=sys-apps/texinfo-5.2 ~amd64 ~x86
