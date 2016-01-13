@@ -192,7 +192,7 @@ dev-lang/lua deprecated
 dev-lang/mono moonlight pax_kernel
 dev-lang/ocaml tk
 dev-lang/parrot pcre
-dev-lang/php -threads apache2 bcmath calendar cgi ctype curl filter fpm ftp gd hash imap intl json mhash mysql mysqli mysqlnd odbc pcntl pcre pdo posix postgres reflection simplexml snmp soap sockets spl sqlite sqlite3 tidy tokenizer wddx xml xmlreader xmlwriter xsl zip sysvipc xslt
+dev-lang/php -threads truetype apache2 bcmath calendar cgi ctype curl filter fpm ftp gd hash imap intl json mhash mysql mysqli mysqlnd odbc pcntl pcre pdo posix postgres reflection simplexml snmp soap sockets spl sqlite sqlite3 tidy tokenizer wddx xml xmlreader xmlwriter xsl zip sysvipc xslt
 dev-lang/python sqlite berkdb
 
 dev-libs/beecrypt threads
@@ -431,7 +431,7 @@ media-libs/devil mng
 # move x11-libs/evas media-libs/evas
 media-libs/evas fontconfig sse threads
 media-libs/freetype -X -auto-hinter adobe-cff
-media-libs/gd fontconfig
+media-libs/gd fontconfig jpeg
 # LibreOffice wants it
 media-libs/harfbuzz icu
 # In order to generate files in different formats, we need to enable imlib
@@ -1230,3 +1230,6 @@ sys-firmware/ipxe vmware
 # calamares use
 >=dev-libs/boost-1.55.0-r2 python_targets_python3_3
 >=app-misc/calamares-runtime-2.0 branding
+
+# mysql support for libdbi-drivers
+>=dev-db/libdbi-drivers-0.9.0 mysql
