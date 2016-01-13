@@ -4,3 +4,4 @@ sys-devel/base-gcc::gentoo
 sys-kernel/linux-headers::gentoo
 sys-boot/syslinux::gentoo
 virtual/linux-sources::gentoo
+net-nds/openldap::gentoo
