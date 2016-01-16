@@ -680,6 +680,9 @@ net-wireless/wpa_supplicant -qt3 -qt4 wimax ap p2p eap-sim wps
 # Razorqt lightdm plugin is lagging behind, disable
 razorqt-base/razorqt-meta -lightdm
 
+# lightdm with no qt4
+>=x11-misc/lightdm-1.10.3 -qt4
+
 sci-astronomy/celestia -kde
 
 # workaround for https://bugs.gentoo.org/show_bug.cgi?id=361411
@@ -1223,3 +1226,7 @@ net-dns/bind urandom xml mysql -threads
 
 # sys-firmware/ipxe support for vmware
 sys-firmware/ipxe vmware
+
+# calamares use
+>=dev-libs/boost-1.55.0-r2 python_targets_python3_3
+>=app-misc/calamares-runtime-2.0 branding
