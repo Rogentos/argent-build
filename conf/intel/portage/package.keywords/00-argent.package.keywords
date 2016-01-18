@@ -16,6 +16,7 @@ dev-qt/qt3support ~amd64 ~x86
 =sys-apps/entropy-server-296::argent-server ~amd64 ~x86
 =app-admin/matter-296::argent-server ~amd64 ~x86
 =x11-themes/argent-artwork-core-3 ~amd64 ~x86
+=app-misc/passwordless-upgrade-1 ~amd64 ~x86
 
 # dmraid version 1.0.0_rc15 stable keyworded
 =sys-fs/dmraid-1.0.0_rc15 ~amd64 ~x86
