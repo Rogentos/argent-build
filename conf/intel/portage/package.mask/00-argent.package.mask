@@ -5,3 +5,5 @@ sys-kernel/linux-headers::gentoo
 sys-boot/syslinux::gentoo
 virtual/linux-sources::gentoo
 net-nds/openldap::gentoo
+dev-vcs/git::gentoo
+sys-block/openiscsi::gentoo
