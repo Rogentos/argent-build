@@ -1204,7 +1204,7 @@ sys-apps/systemd gudev -ssl introspection
 dev-libs/openssl sctp
 
 # doxygen USE flags
-app-doc/doxygen clang doxysearch
+app-doc/doxygen clang doxysearch -qt4
 
 # open-vm-tools without X vgauth
 app-emulation/open-vm-tools -X vgauth
