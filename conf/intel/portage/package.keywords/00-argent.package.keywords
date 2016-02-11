@@ -123,3 +123,6 @@ dev-qt/qt3support ~amd64 ~x86
 =kde-frameworks/extra-cmake-modules-5.11.0 ~amd64 ~x86
 =dev-qt/qtopengl-5.4.1 ~amd64 ~x86
 =app-misc/calamares-runtime-2.0 ~amd64 ~x86
+
+# dracut keyworded
+=sys-kernel/dracut-043-r2 ~amd64 ~x86
