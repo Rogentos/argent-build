@@ -26,6 +26,7 @@ dev-qt/qt3support ~amd64 ~x86
 =sys-kernel/linux-argent-3.14.35 ~amd64 ~x86
 =sys-kernel/linux-live-brrc-3.14.35 ~amd64 ~x86
 =sys-kernel/argent-sources-3.14.35 ~amd64 ~x86
+=app-eselect/eselect-bzimage-0.1-r2 ~amd64 ~x86
 
 # molecules iso generation
 =dev-util/molecule-2 ~amd64 ~x86
