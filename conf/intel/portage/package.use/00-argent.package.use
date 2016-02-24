@@ -734,7 +734,7 @@ sys-apps/man-pages -linguas_da -linguas_de -linguas_fr -linguas_it -linguas_ja -
 sys-apps/pciutils -zlib dns
 
 # systemd support
-sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap introspection gudev xkb
+sys-apps/systemd -gtk plymouth cryptsetup lzma xattr -openrc keymap introspection gudev xkb sysv-utils
 
 # libgudev with introspection
 virtual/libgudev introspection
