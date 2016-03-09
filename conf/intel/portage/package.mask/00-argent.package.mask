@@ -7,3 +7,4 @@ virtual/linux-sources::gentoo
 net-nds/openldap::gentoo
 dev-vcs/git::gentoo
 sys-block/openiscsi::gentoo
+sys-kernel/hardened-sources::gentoo
