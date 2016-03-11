@@ -1257,3 +1257,6 @@ sys-firmware/ipxe vmware
 >=dev-python/lxml-3.4.4 python_single_target_python3_3 python_targets_python3_3
 >=sys-apps/kmod-21 python_single_target_python3_3
 >=dev-python/dbus-python-1.2.0-r1 python_single_target_python3_3
+
+# docker USE flags
+app-emulation/docker aufs btrfs overlay
