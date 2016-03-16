@@ -1260,3 +1260,6 @@ sys-firmware/ipxe vmware
 
 # docker USE flags
 app-emulation/docker aufs btrfs overlay
+
+# virtualbox-modules 4.3.18 without pax_kernel
+=app-emulation/virtualbox-modules-4.3.28 -pax_kernel
