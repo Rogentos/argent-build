@@ -7,7 +7,7 @@
 
 list="git [sub]version [tra]nsmission"
 cmd="emerge -av"
-default_overlay="argent-desktop"
+default_overlay="argent-server"
 overlay=
 
 if [ "$1" = "--repo" ]; then
