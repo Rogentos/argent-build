@@ -11,21 +11,13 @@ packages="app-emulation/open-vm-tools-kmod
 app-emulation/virtualbox-guest-additions
 app-emulation/virtualbox-modules
 app-emulation/vmware-modules
-app-laptop/omnibook
 app-laptop/tp_smapi
-media-video/em8300-modules
-net-wireless/acx
 net-wireless/broadcom-sta
 net-wireless/madwifi-ng
-=net-wireless/ndiswrapper-1.55-r1
+=net-wireless/ndiswrapper-1.59
 sys-block/iscsitarget
 sys-fs/vhba
-~x11-drivers/ati-drivers-10.8
-net-wireless/rtl8192se
-~x11-drivers/nvidia-drivers-173.14.27
-~x11-drivers/nvidia-drivers-195.36.31
-~x11-drivers/nvidia-drivers-96.43.18
-~x11-drivers/nvidia-drivers-256.53
+net-wireless/rtl8180
 x11-drivers/xf86-video-virtualbox"
 
 ETP_REPO="${ETP_REPO:-argentlinux}"
