@@ -10,7 +10,6 @@ fi
 packages="app-emulation/open-vm-tools-kmod
 app-emulation/virtualbox-guest-additions
 app-emulation/virtualbox-modules
-app-emulation/vmware-modules
 app-laptop/tp_smapi
 net-wireless/broadcom-sta
 net-wireless/madwifi-ng
