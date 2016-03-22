@@ -12,11 +12,9 @@ app-emulation/virtualbox-guest-additions
 app-emulation/virtualbox-modules
 app-laptop/tp_smapi
 net-wireless/broadcom-sta
-net-wireless/madwifi-ng
 =net-wireless/ndiswrapper-1.59
 sys-block/iscsitarget
 sys-fs/vhba
-net-wireless/rtl8180
 x11-drivers/xf86-video-virtualbox"
 
 ETP_REPO="${ETP_REPO:-argentlinux}"
