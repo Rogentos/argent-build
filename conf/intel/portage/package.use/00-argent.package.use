@@ -803,9 +803,9 @@ sys-kernel/genkernel-next cryptsetup crypt dmraid -gpg iscsi mdadm plymouth
 
 # kernels usage 
 sys-kernel/linux-hardened btrfs -build dmraid -dracut iscsi luks lvm mdadm plymouth symlink
-sys-kernel/linux-argent dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
+sys-kernel/linux-argent dmraid symlink grub iscsi mdadm luks lvm zfs plymouth build
 sys-kernel/hardened-sources symlink
-sys-kernel/argent-sources symlink
+sys-kernel/argent-sources symlink build
 
 sys-libs/db -java
 sys-libs/zlib minizip
