@@ -743,7 +743,7 @@ virtual/libgudev introspection
 sys-apps/util-linux tty-helpers
 
 sys-auth/consolekit -acl
-sys-auth/pambase -consolekit -kerberos
+sys-auth/pambase -consolekit -kerberos pam_ssh securetty
 
 sys-block/gparted -kde -gtk dmraid mdadm btrfs
 sys-block/parted device-mapper
