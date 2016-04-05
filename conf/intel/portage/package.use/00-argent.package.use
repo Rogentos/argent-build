@@ -1267,3 +1267,6 @@ app-emulation/docker aufs btrfs overlay
 
 # redmine 2.6.10 with additional flags
 <www-apps/redmine-3 ldap fastcgi imagemagick passenger
+
+# activerecord 3.2.22.2 with sqlite
+=dev-ruby/activerecord-3.2.22.2 sqlite
