@@ -12,6 +12,8 @@ MAKEOPTS="-j8 -s"
 # Portage stuff
 ACCEPT_KEYWORDS="x86"
 FEATURES="parallel-fetch protect-owned compressdebug splitdebug"
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkgonly --rebuilt-binaries"
+PORTAGE_BINHOST="http://argent20.argentlinux.io/binhost/x86/"
 CCACHE_SIZE="2G"
 CCACHE_DIR="/var/ccache"
 

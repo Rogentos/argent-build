@@ -12,6 +12,8 @@ MAKEOPTS="-j8 -s"
 # Portage stuff
 ACCEPT_KEYWORDS="amd64"
 FEATURES="parallel-fetch protect-owned compressdebug splitdebug"
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkgonly --rebuilt-binaries"
+PORTAGE_BINHOST="http://argent20.argentlinux.io/binhost/x64/"
 CCACHE_SIZE="2G"
 CCACHE_DIR="/var/ccache"
 
@@ -46,7 +48,7 @@ QEMU_USER_TARGETS="x86_64 i386"
 QEMU_SOFTMMU_TARGETS="x86_64 i386"
 
 ## PORTAGE CONFIG ##
-CONFIG_PROTECT="/usr/share/config/kdm /etc"
+CONFIG_PROTECT="/etc"
 # /lib/modules mask is useful for our internal tinderbox
 CONFIG_PROTECT_MASK="/etc/skel /lib/modules"
 APACHE2_MPMS="prefork"
