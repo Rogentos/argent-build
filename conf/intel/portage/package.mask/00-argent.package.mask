@@ -11,3 +11,4 @@ sys-kernel/hardened-sources::gentoo
 app-emulation/docker::gentoo
 app-emulation/virtualbox-modules::gentoo
 app-emulation/virtualbox-bin::gentoo
+www-apps/redmine::gentoo
