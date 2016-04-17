@@ -154,7 +154,8 @@ dev-db/freetds mssql
 # dev-db/mongodb should use V8. Allows to fix bug 3069
 # embedded-v8 due to incompatiblity with Chromium - Gentoo bug 471582
 dev-db/mongodb v8 embedded-v8
-dev-db/postgresql-base threads
+dev-db/postgresql-base threads -perl
+dev-db/postgresql-server -perl
 # soundex required by Entropy
 # secure-delete required by xulrunner
 # unlock-notify required by dev-db/libzdb
