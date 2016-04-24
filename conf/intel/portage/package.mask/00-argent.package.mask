@@ -6,6 +6,8 @@ dev-vcs/git::gentoo
 net-nds/openldap::gentoo
 sys-boot/grub::gentoo
 sys-boot/syslinux::gentoo
+sys-boot/plymouth::gentoo
+sys-boot/plymouth-extras::gentoo
 sys-block/openiscsi::gentoo
 sys-devel/gcc::gentoo
 sys-devel/base-gcc::gentoo
