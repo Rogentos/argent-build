@@ -1,8 +1,8 @@
 # these are all the same
-http://dl.rogentos.ro/entropy
-http://best.rogentos.ro/entropy
-http://redir.rogentos.ro/entropy
+http://dl.argentlinux.io/entropy
+http://best.argentlinux.io/entropy
+http://redir.argentlinux.io/entropy
 # This will be used as last resort, and must stay here
-http://pkg.rogentos.ro
+http://argent20.argentlinux.io/entropy
 # this is in case our DNS goes down
 http:///mirrors/argentlinux/entropy
