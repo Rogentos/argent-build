@@ -1,7 +1,9 @@
 app-emulation/docker::gentoo
 app-emulation/virtualbox-modules::gentoo
 app-emulation/virtualbox-bin::gentoo
+app-eselect/php::gentoo
 dev-db/postgresql::gentoo
+dev-lang/php::gentoo
 dev-vcs/git::gentoo
 net-nds/openldap::gentoo
 sys-boot/grub::gentoo
