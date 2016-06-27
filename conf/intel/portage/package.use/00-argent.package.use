@@ -1271,3 +1271,6 @@ app-emulation/docker aufs btrfs overlay
 
 # activerecord 3.2.22.2 with sqlite
 =dev-ruby/activerecord-3.2.22.2 sqlite
+
+# openvpn pkcs and iproute2 support
+net-misc/openvpn pkcs11 iproute2
